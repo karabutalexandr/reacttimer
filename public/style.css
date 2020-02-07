@@ -1,0 +1,37 @@
+.container {
+    background-color: #5DCFC3;
+    padding: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    margin: 2px 3px;
+}
+
+.current-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-container {
+    flex-shrink: 3;
+}
